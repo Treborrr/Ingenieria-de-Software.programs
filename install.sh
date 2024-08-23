@@ -38,7 +38,7 @@ sudo pacman -S --noconfirm maven
 
 # Instalar Postman
 echo "Instalando Postman..."
-sudo pacman -S --noconfirm postman
+yay -S --noconfirm postman-bin
 
 # Instalar PostgreSQL
 echo "Instalando PostgreSQL..."
