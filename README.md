@@ -75,8 +75,6 @@ Docker es una plataforma para desarrollar, enviar y ejecutar aplicaciones dentro
 
 ```bash
 sudo pacman -S docker
-sudo systemctl start docker
-sudo systemctl enable docker
 ```
 
 ## VSCode
