@@ -107,7 +107,7 @@ npm install -g @angular/cli@18
 
 ## Scripts
 
-![Demostración de Ejecución de Scripts](./assets/execution_demo.gif)
+![Demostración de Ejecución de Scripts](./asset/execution_demo.gif)
 
 ### Clonar el Repositorio
 
