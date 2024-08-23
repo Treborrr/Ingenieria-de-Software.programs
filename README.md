@@ -107,17 +107,3 @@ npm install -g @angular/cli@18
 
 Esta guía cubre la instalación de todas las tecnologías y herramientas necesarias para el curso "Ingeniería de Software - CC236". Si tienes problemas durante la instalación, consulta la documentación oficial de cada herramienta o contacta a tu instructor.
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
