@@ -104,3 +104,40 @@ npm install -g @angular/cli@18
 ---
 
 >**Nota:** Esta guía cubre la instalación de todas las tecnologías y herramientas necesarias para el curso "Ingeniería de Software - CC236". Si tienes problemas durante la instalación, consulta la documentación oficial de cada herramienta o contacta a tu instructor.
+
+# Scripts
+Pudes usar los siguientes scripts con la instalacion y desistalacion automatica. 
+Clonar el Repositorio
+
+Para comenzar, debes clonar este repositorio en tu máquina local:
+
+bash
+
+git clone https://github.com/Treborrr/Ingenieria-de-Software.git
+cd Ingenieria-de-Software
+
+Dar Permisos de Ejecución
+
+Antes de ejecutar los scripts de instalación y desinstalación, debes asegurarte de que tienen permisos de ejecución:
+
+bash
+
+chmod +x install.sh
+chmod +x uninstall.sh
+
+Ejecutar los Scripts
+Instalación de Programas
+
+Ejecuta el script de instalación para configurar todas las herramientas necesarias:
+
+bash
+
+./install.sh
+
+Desinstalación de Programas
+
+Si en algún momento necesitas revertir la instalación, ejecuta el siguiente script:
+
+bash
+
+./uninstall.sh
