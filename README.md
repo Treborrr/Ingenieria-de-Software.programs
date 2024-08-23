@@ -1,6 +1,8 @@
+---
+
 # Ingeniería de Software - CC236
 
-Esta es una guía de cómo instalar los programas y tecnologías requeridos para el curso "Ingeniería de Software - CC236" de la Universidad Peruana de Ciencias Aplicadas (UPC) en Arch Linux. Ten en cuenta que las versiones y algudo de los programas pueden variar dependiendo del año.
+Esta guía detalla cómo instalar los programas y tecnologías requeridos para el curso "Ingeniería de Software - CC236" de la Universidad Peruana de Ciencias Aplicadas (UPC) en Arch Linux. Ten en cuenta que las versiones de los programas pueden variar según el año.
 
 ## Tecnologías y Software Requeridos
 
@@ -15,7 +17,7 @@ Esta es una guía de cómo instalar los programas y tecnologías requeridos para
 9. [NodeJS](#nodejs)
 10. [Angular 18](#angular-18)
 
-## OpenJDK
+### OpenJDK
 
 Instala OpenJDK, la implementación de código abierto del Java Platform, Standard Edition:
 
@@ -23,11 +25,11 @@ Instala OpenJDK, la implementación de código abierto del Java Platform, Standa
 sudo pacman -S jdk-openjdk
 ```
 
-## IntelliJ IDEA Ultimate
+### IntelliJ IDEA Ultimate
 
 IntelliJ IDEA Ultimate es un IDE para desarrollo en Java. Requiere una licencia, pero puedes usar la licencia de estudiante.
 
-### Instalación:
+#### Instalación:
 
 Descarga e instala IntelliJ IDEA Ultimate desde AUR:
 
@@ -35,7 +37,7 @@ Descarga e instala IntelliJ IDEA Ultimate desde AUR:
 yay -S intellij-idea-ultimate-edition
 ```
 
-## Apache Maven
+### Apache Maven
 
 Apache Maven es una herramienta de gestión y comprensión de proyectos. Es particularmente útil para proyectos Java.
 
@@ -43,7 +45,7 @@ Apache Maven es una herramienta de gestión y comprensión de proyectos. Es part
 sudo pacman -S maven
 ```
 
-## Postman
+### Postman
 
 Postman es una herramienta utilizada para desarrollar, probar y documentar APIs.
 
@@ -51,17 +53,17 @@ Postman es una herramienta utilizada para desarrollar, probar y documentar APIs.
 sudo pacman -S postman
 ```
 
-## PostgreSQL
+### PostgreSQL
 
 PostgreSQL es un sistema de gestión de bases de datos relacional.
 
-### Instalación:
+#### Instalación:
 
 ```bash
 sudo pacman -S postgresql
 ```
 
-## Git
+### Git
 
 Git es un sistema de control de versiones.
 
@@ -69,7 +71,7 @@ Git es un sistema de control de versiones.
 sudo pacman -S git
 ```
 
-## Docker
+### Docker
 
 Docker es una plataforma para desarrollar, enviar y ejecutar aplicaciones dentro de contenedores.
 
@@ -77,7 +79,7 @@ Docker es una plataforma para desarrollar, enviar y ejecutar aplicaciones dentro
 sudo pacman -S docker
 ```
 
-## VSCode
+### VSCode
 
 Visual Studio Code es un editor de código fuente.
 
@@ -85,7 +87,7 @@ Visual Studio Code es un editor de código fuente.
 sudo pacman -S code
 ```
 
-## NodeJS
+### NodeJS
 
 Node.js es un entorno de ejecución para JavaScript.
 
@@ -93,7 +95,7 @@ Node.js es un entorno de ejecución para JavaScript.
 sudo pacman -S nodejs npm
 ```
 
-## Angular 18
+### Angular 18
 
 Angular es un framework para construir aplicaciones web. Requiere Node.js.
 
@@ -103,41 +105,48 @@ npm install -g @angular/cli@18
 
 ---
 
->**Nota:** Esta guía cubre la instalación de todas las tecnologías y herramientas necesarias para el curso "Ingeniería de Software - CC236". Si tienes problemas durante la instalación, consulta la documentación oficial de cada herramienta o contacta a tu instructor.
+## Scripts
 
-# Scripts
-Pudes usar los siguientes scripts con la instalacion y desistalacion automatica. 
-Clonar el Repositorio
+![Demostración de Ejecución de Scripts](./assets/execution_demo.gif)
 
-Para comenzar, debes clonar este repositorio en tu máquina local:
+### Clonar el Repositorio
 
-bash
+Para comenzar, clona este repositorio en tu máquina local:
 
+```bash
 git clone https://github.com/Treborrr/Ingenieria-de-Software.git
 cd Ingenieria-de-Software
+```
 
-Dar Permisos de Ejecución
+### Dar Permisos de Ejecución
 
-Antes de ejecutar los scripts de instalación y desinstalación, debes asegurarte de que tienen permisos de ejecución:
+Antes de ejecutar los scripts de instalación y desinstalación, asegúrate de otorgarles permisos de ejecución:
 
-bash
-
+```bash
 chmod +x install.sh
 chmod +x uninstall.sh
+```
 
-Ejecutar los Scripts
-Instalación de Programas
+### Ejecutar los Scripts
+
+#### Instalación de Programas
 
 Ejecuta el script de instalación para configurar todas las herramientas necesarias:
 
-bash
-
+```bash
 ./install.sh
+```
 
-Desinstalación de Programas
+#### Desinstalación de Programas
 
-Si en algún momento necesitas revertir la instalación, ejecuta el siguiente script:
+Si necesitas revertir la instalación, ejecuta el siguiente script:
 
-bash
-
+```bash
 ./uninstall.sh
+```
+
+---
+
+> **Nota:** Esta guía cubre la instalación de todas las tecnologías y herramientas necesarias para el curso "Ingeniería de Software - CC236". Si tienes problemas durante la instalación, consulta la documentación oficial de cada herramienta o contacta a tu instructor.
+
+---
