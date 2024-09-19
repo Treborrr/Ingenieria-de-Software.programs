@@ -114,8 +114,8 @@ npm install -g @angular/cli@18
 Para comenzar, clona este repositorio en tu máquina local:
 
 ```bash
-git clone https://github.com/Treborrr/Ingenieria-de-Software.git
-cd Ingenieria-de-Software
+git clone https://github.com/Treborrr/Ingenieria-de-Software.programs.git
+cd Ingenieria-de-Software.programs
 ```
 
 ### Dar Permisos de Ejecución
